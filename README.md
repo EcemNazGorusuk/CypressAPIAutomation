@@ -42,7 +42,7 @@
 <pre><code>npx cypress run</code></pre>
 
 <p id="tests"><strong>Tests</strong></p>
-<p>Tests are located in the <code>cypress/integration</code> directory. Each test file contains scenarios that test specific features or endpoints of the API.</p>
+<p>Tests are located in the <code>cypress/e2e</code> directory. Each test file contains scenarios that test specific features or endpoints of the API.</p>
 
 <p id="contributing"><strong>Contributing</strong></p>
 <p>If you would like to contribute to this project, please follow these steps:</p>
