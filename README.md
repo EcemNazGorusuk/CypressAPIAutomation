@@ -58,5 +58,5 @@
 </ol>
 
 
-![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge) [View Cypress Project](https://cloud.cypress.io/projects/1vizwi/runs)
+![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge) <a href="https://cloud.cypress.io/projects/1vizwi/runs">View Cypress Results</a>
 
