@@ -60,7 +60,7 @@
   <li>Make sure to fork this repository.</li>
   <li>Create a new feature branch:</li>
   <pre><code>git checkout -b feature/your-feature</code></pre>
-  <li>Make your changes and commit them:</li>
+  <li>Make your changes and commit them :</li>
   <pre><code>git commit -am 'Add new feature'</code></pre>
   <li>Push your branch:</li>
   <pre><code>git push origin feature/your-feature</code></pre>
