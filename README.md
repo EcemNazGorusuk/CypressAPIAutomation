@@ -1,3 +1,4 @@
+<h1>CypressAPI Automation</h1>
 <p><strong>CypressAPI Automation</strong> is a test automation framework developed to test the Petstore API. This project is created using Cypress to automate API tests and verify various endpoints of the API.</p>
 
 <p><strong>Project Overview</strong></p>
