@@ -9,7 +9,6 @@
   <li><a href="#running-tests">Running Tests</a></li>
   <li><a href="#tests">Tests</a></li>
   <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
 </ul>
 
 <p id="project-overview"><strong>Project Overview</strong></p>
