@@ -1,4 +1,4 @@
-describe("User Tests", () => {
+describe("User Tests", () =>{
   it("User Create", () => {
     //This test sends a POST request to the Petstore API and checks
     //if the response status is 200, indicating success.
