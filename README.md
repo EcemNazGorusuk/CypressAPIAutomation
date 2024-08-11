@@ -58,5 +58,4 @@
   <li>Create a pull request.</li>
 </ol>
 
-<p id="license"><strong>License</strong></p>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
