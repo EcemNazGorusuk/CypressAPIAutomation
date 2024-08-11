@@ -6,7 +6,7 @@
   <li><a href="#features">Features</a></li>
   <li><a href="#getting-started">Getting Started</a></li>
   <li><a href="#installation">Installation</a></li>
-  <li><a href="#running-tests">Running Tests</a></li>
+  <li><a href="#running-tests">Running Tests & Results</a></li>
   <li><a href="#tests">Tests</a></li>
   <li><a href="#contributing">Contributing</a></li>
 </ul>
@@ -43,7 +43,8 @@
 
 <p id="tests"><strong>Tests</strong></p>
 <p>Tests are located in the <code>cypress/e2e</code> directory. Each test file contains scenarios that test specific features or endpoints of the API.</p>
-
+<p>Cypress Test Results are : [![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge)](https://cloud.cypress.io/projects/1vizwi/runs)
+</p>
 <p id="contributing"><strong>Contributing</strong></p>
 <p>If you would like to contribute to this project, please follow these steps:</p>
 <ol>
@@ -58,4 +59,3 @@
 </ol>
 
 
-[![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge)](https://cloud.cypress.io/projects/1vizwi/runs)
