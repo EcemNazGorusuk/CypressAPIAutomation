@@ -58,3 +58,4 @@
 </ol>
 
 
+![Cypress](https://img.shields.io/badge/Cypress-testing-brightgreen)
