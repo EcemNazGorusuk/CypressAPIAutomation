@@ -57,11 +57,4 @@
   <li>Create a pull request.</li>
 </ol>
 
-<p style="text-align: center;">
-  <span style="display: inline-block; vertical-align: middle; margin-right: 10px;">
-    ![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge)
-  </span>
-  <span style="display: inline-block; vertical-align: middle;">
-    <a href="https://cloud.cypress.io/projects/1vizwi/runs" style="text-decoration: none; color: #00b140;">View Cypress Results</a>
-  </span>
-</p>
+<p><span></span> <span> <a href="https://cloud.cypress.io/projects/1vizwi/runs">View Cypress Results</a></span> </p>
