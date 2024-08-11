@@ -58,4 +58,4 @@
 </ol>
 
 
-![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge)
+[![Cypress](https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge)](https://cloud.cypress.io/projects/1vizwi/runs)
