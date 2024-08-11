@@ -43,11 +43,11 @@
 
 <p id="tests"><strong>Tests</strong></p>
 <p>Tests are located in the <code>cypress/e2e</code> directory. Each test file contains scenarios that test specific features or endpoints of the API.</p>
-<p style="text-align: center;">
-  <span style="display: inline-block; vertical-align: middle; margin-right: 10px;">
+<p style="text-align: center; position: relative; line-height: 0;">
+  <span style="position: absolute; top: 0; left: 0; margin-right: 10px;">
     Cypress Test Results are:
   </span>
-  <a href="https://cloud.cypress.io/projects/1vizwi/runs">
+  <a href="https://cloud.cypress.io/projects/1vizwi/runs" style="display: inline-block; vertical-align: top;">
     <img src="https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge" alt="Cypress">
   </a>
 </p>
