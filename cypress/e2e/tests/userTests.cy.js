@@ -6,10 +6,8 @@ describe("User Tests", () => {
   const params=new Params();
   const urls=params.url();
 
-   //! - LARA, 404 HATALARINI DA EKLE
-
    
-  it("User Create", () => {
+  it("/v2/user userCreate", () => {
     //This test sends a POST request to the Petstore API and checks
     //if the response status is 200, indicating success.
     cy.request({
@@ -30,7 +28,7 @@ describe("User Tests", () => {
   });
 
 
-  it("Get User Info", () => {
+  it("/v2/user/ecem getUserInfo", () => {
     //This test sends a GET request to the Petstore API and checks
     //if the response status is 200, indicating success.
     cy.request("GET",urls+'/v2/user/ecem').then(
@@ -41,7 +39,7 @@ describe("User Tests", () => {
   });
 
 
-  it("Update User", () => {
+  it("/v2/user/ecem updateUser", () => {
     //This test sends a PUT request to the Petstore API and checks
     //if the response status is 200, indicating success.
     cy.request({
@@ -62,7 +60,19 @@ describe("User Tests", () => {
   });
 
 
-  it("Delete User", () => {
+  it('/v2/user/ecem updateUserFailure', () => {
+    cy.request({
+        method: 'PUT',
+        url:  urls+'/v2/user/',
+        headers: data.bodyPayload(),
+        failOnStatusCode: false
+      })
+        .then((response) => {
+          expect(response.status).to.eq(405) 
+        })
+})
+
+  it("/v2/user/ecem deleteUser", () => {
     //This test sends a DELETE request to the Petstore API and checks
     //if the response status is 200, indicating success.
     cy.request({
@@ -76,7 +86,7 @@ describe("User Tests", () => {
 
   
 
-  it("Login User", () => {
+  it("/v2/user/login loginUser", () => {
     cy.request({
       method: "GET",
       url:  urls+'/v2/user/login',
@@ -88,7 +98,7 @@ describe("User Tests", () => {
 
 
 
-  it("Logout User", () => {
+  it("/v2/user/logout logoutUser", () => {
     cy.request({
       method: "GET",
       url:  urls+'/v2/user/logout',
@@ -100,7 +110,7 @@ describe("User Tests", () => {
 
 
 
-  it("Create With List", () => {
+  it("/v2/user/createWithList createWithList", () => {
     cy.request({
       method: "POST",
       url: urls+'/v2/user/createWithList',
@@ -112,7 +122,7 @@ describe("User Tests", () => {
 
 
 
-  it("Create With Array", () => {
+  it("/v2/user/createWithArray createWithArray", () => {
     cy.request({
       method: "POST",
       url: urls+'/v2/user/createWithArray',
