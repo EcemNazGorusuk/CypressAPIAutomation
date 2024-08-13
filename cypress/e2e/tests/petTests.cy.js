@@ -6,7 +6,6 @@ describe("Pet Tests", () => {
   const params = new Params();
   const urls = params.url();
 
-//!- LARA, 404 HATALARINI DA EKLE
 
   it("/v2/pet addNewDog", () => {
     cy.request({
