@@ -1,4 +1,4 @@
-class Data {
+class PetData {
 
   headerPayload() {
     const headerBody = {
@@ -8,17 +8,24 @@ class Data {
     return headerBody;
   }
 
-  
-  bodyPayload(uName, fName, lName, uEmail, uPassword, uPhone, uStatus) {
+  bodyPayload(petName, photoUrl, animalType,status) {
     const postData = {
-      id: 54321,
-      username: uName,
-      firstName: fName,
-      lastName: lName,
-      email: uEmail,
-      password: uPassword,
-      phone: uPhone,
-      userStatus: uStatus,
+      "id": 12345,
+      "category": {
+        "id": 67890,
+        "name": "pet"
+      },
+      "name": petName,
+      "photoUrls": [
+        photoUrl
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": animalType
+        }
+      ],
+      "status": status
     };
     return postData;
   }
@@ -76,4 +83,4 @@ class Data {
   }
 }
 
-export default Data;
+export default PetData;

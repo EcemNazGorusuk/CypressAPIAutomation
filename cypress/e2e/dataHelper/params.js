@@ -1,6 +1,7 @@
 class Params {
-    url(urlAddress){
-        return urlAddress;
+    url(){
+        return "https://petstore.swagger.io";
     }
 }
 export default Params;
+
