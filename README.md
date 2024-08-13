@@ -51,7 +51,7 @@
     <img src="https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge" alt="Cypress">
   </a>
 </p>
-<img href="allure_report_ss.PNG"/>
+<img src="allure_report_ss.PNG"/>
 
 
 <p id="contributing"><strong>Contributing</strong></p>
