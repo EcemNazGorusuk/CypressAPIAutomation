@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"b6be3d082f8c47deea2bb361757fc8f0","name":"Pet Tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":10,"unknown":0,"total":10}},{"uid":"d396b605b5fa5d3051b20a83f99be7be","name":"User Tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":9,"unknown":0,"total":9}}]}

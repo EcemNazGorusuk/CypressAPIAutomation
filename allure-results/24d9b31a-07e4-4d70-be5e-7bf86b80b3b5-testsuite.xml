@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723564310314' stop='1723564312804'>
+    <name>User Tests</name>
+    <title>User Tests</title>
+    <test-cases>
+        <test-case start='1723564310314' status='passed' stop='1723564310631'>
+            <name>/v2/user userCreate</name>
+            <title>/v2/user userCreate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564310641' status='passed' stop='1723564310894'>
+            <name>/v2/user/ecem getUserInfo</name>
+            <title>/v2/user/ecem getUserInfo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564310901' status='passed' stop='1723564311188'>
+            <name>/v2/user/ecem updateUser</name>
+            <title>/v2/user/ecem updateUser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564311195' status='passed' stop='1723564311448'>
+            <name>/v2/user/ecem updateUserFailure</name>
+            <title>/v2/user/ecem updateUserFailure</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564311455' status='passed' stop='1723564311678'>
+            <name>/v2/user/ecem deleteUser</name>
+            <title>/v2/user/ecem deleteUser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564311685' status='passed' stop='1723564311913'>
+            <name>/v2/user/login loginUser</name>
+            <title>/v2/user/login loginUser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564311920' status='passed' stop='1723564312180'>
+            <name>/v2/user/logout logoutUser</name>
+            <title>/v2/user/logout logoutUser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564312187' status='passed' stop='1723564312446'>
+            <name>/v2/user/createWithList createWithList</name>
+            <title>/v2/user/createWithList createWithList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564312453' status='passed' stop='1723564312804'>
+            <name>/v2/user/createWithArray createWithArray</name>
+            <title>/v2/user/createWithArray createWithArray</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1723564306222' stop='1723564309035'>
+    <name>Pet Tests</name>
+    <title>Pet Tests</title>
+    <test-cases>
+        <test-case start='1723564306222' status='passed' stop='1723564307179'>
+            <name>/v2/pet addNewDog</name>
+            <title>/v2/pet addNewDog</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564307189' status='passed' stop='1723564307363'>
+            <name>/v2/pet addNewCat</name>
+            <title>/v2/pet addNewCat</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564307370' status='passed' stop='1723564307597'>
+            <name>/v2/pet/12345 getPetInfo</name>
+            <title>/v2/pet/12345 getPetInfo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564307605' status='passed' stop='1723564307946'>
+            <name>/v2/pet/findByStatus?status=available getPetAvailableStatus</name>
+            <title>/v2/pet/findByStatus?status=available getPetAvailableStatus</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564307952' status='passed' stop='1723564308131'>
+            <name>/v2/pet/12345a getPetInfoFailure</name>
+            <title>/v2/pet/12345a getPetInfoFailure</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564308141' status='passed' stop='1723564308313'>
+            <name>/v2/pet/12345a getPetInfoReturnsNull</name>
+            <title>/v2/pet/12345a getPetInfoReturnsNull</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564308320' status='passed' stop='1723564308485'>
+            <name>/v2/pet updateExistingPet</name>
+            <title>/v2/pet updateExistingPet</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564308491' status='passed' stop='1723564308689'>
+            <name>/v2/pet updateExistingPetInvalidData</name>
+            <title>/v2/pet updateExistingPetInvalidData</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564308695' status='passed' stop='1723564308863'>
+            <name>/v2/pet/12345 deletePet</name>
+            <title>/v2/pet/12345 deletePet</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1723564308869' status='passed' stop='1723564309035'>
+            <name>/v2/pet deletePetError</name>
+            <title>/v2/pet deletePetError</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

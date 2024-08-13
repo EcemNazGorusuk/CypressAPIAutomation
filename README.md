@@ -7,7 +7,7 @@
   <li><a href="#getting-started">Getting Started</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#running-tests">Running Tests & Results</a></li>
-  <li><a href="#tests">Tests</a></li>
+  <li><a href="#tests">Tests & Allure Report</a></li>
   <li><a href="#contributing">Contributing</a></li>
 </ul>
 
@@ -51,7 +51,7 @@
     <img src="https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge" alt="Cypress">
   </a>
 </p>
-
+<img href="allure_report_ss.PNG"/>
 
 
 <p id="contributing"><strong>Contributing</strong></p>
