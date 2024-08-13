@@ -47,7 +47,7 @@
   <span style="position: absolute; top: 1; left: 0; margin-right: 10px;">
     Cypress Test Results are:
   </span>
-  <a href="https://cloud.cypress.io/projects/1vizwi/runs" style="display: inline-block; vertical-align: top;">
+  <a href="https://cloud.cypress.io/projects/ize72n/runs" style="display: inline-block; vertical-align: top;">
     <img src="https://img.shields.io/badge/Test%20Status-Passed-brightgreen?logo=cypress&logoColor=white&style=for-the-badge" alt="Cypress">
   </a>
 </p>
